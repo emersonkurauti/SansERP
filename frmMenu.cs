@@ -183,7 +183,9 @@ namespace SansERP
 
             for (int i = 0; i < menuTelas.Items.Count; i++)
             {
-                if ((menuTelas.Items[i].Name).Replace("appRelatorios.", "").Replace(",appRelatorios", "").Replace("SansERP.Geral.View.", "").Equals(((Form)sender).Name))
+                if ((menuTelas.Items[i].Name).Replace("appRelatorios.", "").Replace(",appRelatorios", "").Replace("SansERP.Geral.Pais.View.", "").Equals(((Form)sender).Name) ||
+                    (menuTelas.Items[i].Name).Replace("appRelatorios.", "").Replace(",appRelatorios", "").Replace("SansERP.Geral.Estado.View.", "").Equals(((Form)sender).Name) ||
+                    (menuTelas.Items[i].Name).Replace("appRelatorios.", "").Replace(",appRelatorios", "").Replace("SansERP.Geral.Cidade.View.", "").Equals(((Form)sender).Name))
                 {
                     menuTelas.Items.RemoveAt(i);
                     alIntSeqTelas.RemoveAt(i);
