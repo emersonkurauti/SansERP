@@ -69,12 +69,16 @@ namespace SansERP
             AddListTela("SansERP.Geral.Pais.View.frmCadPais");
             AddListTela("SansERP.Geral.Estado.View.frmCadEstado");
             AddListTela("SansERP.Geral.Cidade.View.frmCadCidade");
+            AddListTela("SansERP.Geral.TipoTelefone.View.frmCadTipoTelefone");
+            AddListTela("SansERP.Geral.TipoEndereco.View.frmCadTipoEndereco");
             //AddListTela("appRelatorios.frmGerenciadorRPT,appRelatorios");
 
             ToolStripMenuItem menuCadastros = RetornarItemMenuCriado(menuStrip, "&Cadastros", null, null, "btnCadastros");
             CriarSubItemMenu(menuCadastros, "&País...", null, ItemMenu_onClick, "SansERP.Geral.Pais.View.frmCadPais");
             CriarSubItemMenu(menuCadastros, "&Estado...", null, ItemMenu_onClick, "SansERP.Geral.Estado.View.frmCadEstado");
             CriarSubItemMenu(menuCadastros, "&Cidade...", null, ItemMenu_onClick, "SansERP.Geral.Cidade.View.frmCadCidade");
+            CriarSubItemMenu(menuCadastros, "&Tipo de Telefone...", null, ItemMenu_onClick, "SansERP.Geral.TipoTelefone.View.frmCadTipoTelefone");
+            CriarSubItemMenu(menuCadastros, "&Tipo de Endereço...", null, ItemMenu_onClick, "SansERP.Geral.TipoEndereco.View.frmCadTipoEndereco");
 
             /*if (_objUsuario.flTpUsuario == csConstantes.cGestor)
             {
@@ -185,7 +189,9 @@ namespace SansERP
             {
                 if ((menuTelas.Items[i].Name).Replace("appRelatorios.", "").Replace(",appRelatorios", "").Replace("SansERP.Geral.Pais.View.", "").Equals(((Form)sender).Name) ||
                     (menuTelas.Items[i].Name).Replace("appRelatorios.", "").Replace(",appRelatorios", "").Replace("SansERP.Geral.Estado.View.", "").Equals(((Form)sender).Name) ||
-                    (menuTelas.Items[i].Name).Replace("appRelatorios.", "").Replace(",appRelatorios", "").Replace("SansERP.Geral.Cidade.View.", "").Equals(((Form)sender).Name))
+                    (menuTelas.Items[i].Name).Replace("appRelatorios.", "").Replace(",appRelatorios", "").Replace("SansERP.Geral.Cidade.View.", "").Equals(((Form)sender).Name) ||
+                    (menuTelas.Items[i].Name).Replace("appRelatorios.", "").Replace(",appRelatorios", "").Replace("SansERP.Geral.TipoTelefone.View.", "").Equals(((Form)sender).Name) ||
+                    (menuTelas.Items[i].Name).Replace("appRelatorios.", "").Replace(",appRelatorios", "").Replace("SansERP.Geral.TipoEndereco.View.", "").Equals(((Form)sender).Name))
                 {
                     menuTelas.Items.RemoveAt(i);
                     alIntSeqTelas.RemoveAt(i);
