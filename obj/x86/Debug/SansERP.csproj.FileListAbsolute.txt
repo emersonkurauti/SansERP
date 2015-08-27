@@ -9,3 +9,6 @@ C:\KuraSoft\SansERP\bin\Debug\KuraFrameWork.dll
 C:\KuraSoft\SansERP\bin\Debug\KuraFrameWork.pdb
 C:\KuraSoft\SansERP\obj\x86\Debug\SansERP.exe
 C:\KuraSoft\SansERP\obj\x86\Debug\SansERP.pdb
+C:\KuraSoft\SansERP\obj\x86\Debug\SansERP.Geral.Pais.View.frmCadPais.resources
+C:\KuraSoft\SansERP\obj\x86\Debug\SansERP.Geral.Pais.View.frmConsPais.resources
+C:\KuraSoft\SansERP\obj\x86\Debug\SansERP.Geral.Pais.View.ucConsPais.resources
