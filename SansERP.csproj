@@ -107,6 +107,24 @@
     <Compile Include="Geral\Pais\View\ucConsPais.Designer.cs">
       <DependentUpon>ucConsPais.cs</DependentUpon>
     </Compile>
+    <Compile Include="Geral\TipoTelefone\View\frmCadTipoTelefone.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Geral\TipoTelefone\View\frmCadTipoTelefone.Designer.cs">
+      <DependentUpon>frmCadTipoTelefone.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Geral\TipoTelefone\View\frmConsTipoTelefone.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Geral\TipoTelefone\View\frmConsTipoTelefone.Designer.cs">
+      <DependentUpon>frmConsTipoTelefone.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Geral\TipoTelefone\View\ucConsTipoTelefone.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Geral\TipoTelefone\View\ucConsTipoTelefone.Designer.cs">
+      <DependentUpon>ucConsTipoTelefone.cs</DependentUpon>
+    </Compile>
     <Compile Include="Mensagem\csMensagem.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -139,6 +157,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Geral\Pais\View\ucConsPais.resx">
       <DependentUpon>ucConsPais.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Geral\TipoTelefone\View\frmCadTipoTelefone.resx">
+      <DependentUpon>frmCadTipoTelefone.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Geral\TipoTelefone\View\frmConsTipoTelefone.resx">
+      <DependentUpon>frmConsTipoTelefone.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Geral\TipoTelefone\View\ucConsTipoTelefone.resx">
+      <DependentUpon>ucConsTipoTelefone.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

@@ -18,3 +18,6 @@ C:\KuraSoft\SansERP\obj\x86\Debug\SansERP.Geral.Estado.View.ucConsEstado.resourc
 C:\KuraSoft\SansERP\obj\x86\Debug\SansERP.Geral.Cidade.View.frmCadCidade.resources
 C:\KuraSoft\SansERP\obj\x86\Debug\SansERP.Geral.Cidade.View.frmConsCidade.resources
 C:\KuraSoft\SansERP\obj\x86\Debug\SansERP.Geral.Cidade.View.ucConsCidade.resources
+C:\KuraSoft\SansERP\obj\x86\Debug\SansERP.Geral.TipoTelefone.View.frmCadTipoTelefone.resources
+C:\KuraSoft\SansERP\obj\x86\Debug\SansERP.Geral.TipoTelefone.View.frmConsTipoTelefone.resources
+C:\KuraSoft\SansERP\obj\x86\Debug\SansERP.Geral.TipoTelefone.View.ucConsTipoTelefone.resources
