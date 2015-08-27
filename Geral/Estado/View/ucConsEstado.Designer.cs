@@ -1,6 +1,6 @@
-﻿namespace SansERP.Geral.Pais.View
+﻿namespace SansERP.Geral.Estado.View
 {
-    partial class ucConsPais
+    partial class ucConsEstado
     {
         /// <summary>
         /// Required designer variable.
@@ -32,14 +32,14 @@
             // 
             // lblRotulo
             // 
-            this.lblRotulo.Size = new System.Drawing.Size(35, 13);
-            this.lblRotulo.Text = "País :";
+            this.lblRotulo.Size = new System.Drawing.Size(46, 13);
+            this.lblRotulo.Text = "Estado :";
             // 
-            // ucConsPais
+            // ucConsEstado
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.Name = "ucConsPais";
-            this.Rotulo = "País :";
+            this.Name = "ucConsEstado";
+            this.Rotulo = "Estado :";
             this.ResumeLayout(false);
             this.PerformLayout();
 

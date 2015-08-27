@@ -67,11 +67,12 @@ namespace SansERP
         public override void ItemMenuStrip()
         {
             AddListTela("SansERP.Geral.Pais.View.frmCadPais");
+            AddListTela("SansERP.Geral.Estado.View.frmCadEstado");
             //AddListTela("appRelatorios.frmGerenciadorRPT,appRelatorios");
 
             ToolStripMenuItem menuCadastros = RetornarItemMenuCriado(menuStrip, "&Cadastros", null, null, "btnCadastros");
             CriarSubItemMenu(menuCadastros, "&País...", null, ItemMenu_onClick, "SansERP.Geral.Pais.View.frmCadPais");
-            //CriarSubItemMenu(menuCadastros, "&Produto...", null, ItemMenu_onClick, "SansERP.Geral.View.frmCadProduto");
+            CriarSubItemMenu(menuCadastros, "&Estado...", null, ItemMenu_onClick, "SansERP.Geral.Estado.View.frmCadEstado");
 
             /*if (_objUsuario.flTpUsuario == csConstantes.cGestor)
             {

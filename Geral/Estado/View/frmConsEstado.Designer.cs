@@ -1,6 +1,6 @@
-﻿namespace SansERP.Geral.Pais.View
+﻿namespace SansERP.Geral.Estado.View
 {
-    partial class ucConsPais
+    partial class frmConsEstado
     {
         /// <summary>
         /// Required designer variable.
@@ -28,18 +28,30 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.pnFiltro.SuspendLayout();
+            this.pnBotoes.SuspendLayout();
             this.SuspendLayout();
             // 
-            // lblRotulo
+            // pnBotoes
             // 
-            this.lblRotulo.Size = new System.Drawing.Size(35, 13);
-            this.lblRotulo.Text = "País :";
+            this.pnBotoes.Size = new System.Drawing.Size(88, 0);
             // 
-            // ucConsPais
+            // btnConsultar
+            // 
+            this.btnConsultar.Size = new System.Drawing.Size(88, 0);
+            // 
+            // btnLimparFiltro
+            // 
+            this.btnLimparFiltro.Location = new System.Drawing.Point(0, -29);
+            // 
+            // frmConsEstado
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.Name = "ucConsPais";
-            this.Rotulo = "País :";
+            this.ClientSize = new System.Drawing.Size(684, 462);
+            this.Name = "frmConsEstado";
+            this.Text = "Consulta de Estado";
+            this.pnFiltro.ResumeLayout(false);
+            this.pnBotoes.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
