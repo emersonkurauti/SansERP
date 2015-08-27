@@ -34,7 +34,7 @@
             this.nmEstado = new KuraFrameWork.Componentes_Visuais.ucTextBox();
             this.deSiglaEstado = new KuraFrameWork.Componentes_Visuais.ucTextBox();
             this.lbldeSiglaEstado = new System.Windows.Forms.Label();
-            this.ucConsPais = new SansERP.Geral.Pais.View.ucConsPais();
+            this.cdPais = new SansERP.Geral.Pais.View.ucConsPais();
             this.pnFiltro.SuspendLayout();
             this.pnForm.SuspendLayout();
             this.pnBotoes.SuspendLayout();
@@ -44,7 +44,7 @@
             // 
             // pnForm
             // 
-            this.pnForm.Controls.Add(this.ucConsPais);
+            this.pnForm.Controls.Add(this.cdPais);
             this.pnForm.Controls.Add(this.lbldeSiglaEstado);
             this.pnForm.Controls.Add(this.deSiglaEstado);
             this.pnForm.Controls.Add(this.nmEstado);
@@ -61,7 +61,7 @@
             this.pnForm.Controls.SetChildIndex(this.nmEstado, 0);
             this.pnForm.Controls.SetChildIndex(this.deSiglaEstado, 0);
             this.pnForm.Controls.SetChildIndex(this.lbldeSiglaEstado, 0);
-            this.pnForm.Controls.SetChildIndex(this.ucConsPais, 0);
+            this.pnForm.Controls.SetChildIndex(this.cdPais, 0);
             // 
             // btnLimparFiltro
             // 
@@ -116,7 +116,7 @@
             this.nmEstado.Location = new System.Drawing.Point(6, 73);
             this.nmEstado.MensagemCampoObrigatorio = "Informe o nome do Estado.";
             this.nmEstado.Name = "nmEstado";
-            this.nmEstado.Size = new System.Drawing.Size(190, 20);
+            this.nmEstado.Size = new System.Drawing.Size(308, 20);
             this.nmEstado.TabIndex = 15;
             // 
             // deSiglaEstado
@@ -124,7 +124,7 @@
             this.deSiglaEstado.AceitaEspaco = true;
             this.deSiglaEstado.CampoDesabilitado = false;
             this.deSiglaEstado.CampoObrigatorio = false;
-            this.deSiglaEstado.Location = new System.Drawing.Point(202, 73);
+            this.deSiglaEstado.Location = new System.Drawing.Point(320, 73);
             this.deSiglaEstado.MensagemCampoObrigatorio = "Informe a sigla do Estado.";
             this.deSiglaEstado.Name = "deSiglaEstado";
             this.deSiglaEstado.Size = new System.Drawing.Size(40, 20);
@@ -133,29 +133,29 @@
             // lbldeSiglaEstado
             // 
             this.lbldeSiglaEstado.AutoSize = true;
-            this.lbldeSiglaEstado.Location = new System.Drawing.Point(199, 57);
+            this.lbldeSiglaEstado.Location = new System.Drawing.Point(317, 57);
             this.lbldeSiglaEstado.Name = "lbldeSiglaEstado";
             this.lbldeSiglaEstado.Size = new System.Drawing.Size(31, 13);
             this.lbldeSiglaEstado.TabIndex = 17;
             this.lbldeSiglaEstado.Text = "*UF :";
             // 
-            // ucConsPais
+            // cdPais
             // 
-            this.ucConsPais.bCadastrar = true;
-            this.ucConsPais.bMudouCodigo = false;
-            this.ucConsPais.CampoObrigatorio = true;
-            this.ucConsPais.cdRegistro = 0;
-            this.ucConsPais.deRegistro = null;
-            this.ucConsPais.Location = new System.Drawing.Point(6, 99);
-            this.ucConsPais.MensagemCampoObrigatorio = "Selecione o país.";
-            this.ucConsPais.Name = "ucConsPais";
-            this.ucConsPais.objCon = null;
-            this.ucConsPais.Rotulo = "País :";
-            this.ucConsPais.Size = new System.Drawing.Size(236, 36);
-            this.ucConsPais.TabIndex = 18;
-            this.ucConsPais.TelaConsulta = null;
-            this.ucConsPais.tfrmConsulta = null;
-            this.ucConsPais.tobjCa = null;
+            this.cdPais.bCadastrar = true;
+            this.cdPais.bMudouCodigo = false;
+            this.cdPais.CampoObrigatorio = true;
+            this.cdPais.cdRegistro = 0;
+            this.cdPais.deRegistro = null;
+            this.cdPais.Location = new System.Drawing.Point(366, 57);
+            this.cdPais.MensagemCampoObrigatorio = "Selecione o país.";
+            this.cdPais.Name = "cdPais";
+            this.cdPais.objCon = null;
+            this.cdPais.Rotulo = "*País :";
+            this.cdPais.Size = new System.Drawing.Size(297, 36);
+            this.cdPais.TabIndex = 18;
+            this.cdPais.TelaConsulta = null;
+            this.cdPais.tfrmConsulta = null;
+            this.cdPais.tobjCa = null;
             // 
             // frmCadEstado
             // 
@@ -183,6 +183,6 @@
         private KuraFrameWork.Componentes_Visuais.ucTextBox nmEstado;
         private KuraFrameWork.Componentes_Visuais.ucTextBox deSiglaEstado;
         private System.Windows.Forms.Label lbldeSiglaEstado;
-        private Pais.View.ucConsPais ucConsPais;
+        private Pais.View.ucConsPais cdPais;
     }
 }

@@ -15,3 +15,6 @@ C:\KuraSoft\SansERP\obj\x86\Debug\SansERP.exe
 C:\KuraSoft\SansERP\obj\x86\Debug\SansERP.pdb
 C:\KuraSoft\SansERP\obj\x86\Debug\SansERP.Geral.Estado.View.frmConsEstado.resources
 C:\KuraSoft\SansERP\obj\x86\Debug\SansERP.Geral.Estado.View.ucConsEstado.resources
+C:\KuraSoft\SansERP\obj\x86\Debug\SansERP.Geral.Cidade.View.frmCadCidade.resources
+C:\KuraSoft\SansERP\obj\x86\Debug\SansERP.Geral.Cidade.View.frmConsCidade.resources
+C:\KuraSoft\SansERP\obj\x86\Debug\SansERP.Geral.Cidade.View.ucConsCidade.resources

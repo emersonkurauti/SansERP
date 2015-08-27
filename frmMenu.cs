@@ -68,11 +68,13 @@ namespace SansERP
         {
             AddListTela("SansERP.Geral.Pais.View.frmCadPais");
             AddListTela("SansERP.Geral.Estado.View.frmCadEstado");
+            AddListTela("SansERP.Geral.Cidade.View.frmCadCidade");
             //AddListTela("appRelatorios.frmGerenciadorRPT,appRelatorios");
 
             ToolStripMenuItem menuCadastros = RetornarItemMenuCriado(menuStrip, "&Cadastros", null, null, "btnCadastros");
             CriarSubItemMenu(menuCadastros, "&País...", null, ItemMenu_onClick, "SansERP.Geral.Pais.View.frmCadPais");
             CriarSubItemMenu(menuCadastros, "&Estado...", null, ItemMenu_onClick, "SansERP.Geral.Estado.View.frmCadEstado");
+            CriarSubItemMenu(menuCadastros, "&Cidade...", null, ItemMenu_onClick, "SansERP.Geral.Cidade.View.frmCadCidade");
 
             /*if (_objUsuario.flTpUsuario == csConstantes.cGestor)
             {

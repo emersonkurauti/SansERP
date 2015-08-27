@@ -53,6 +53,24 @@
     <Compile Include="frmMenu.Designer.cs">
       <DependentUpon>frmMenu.cs</DependentUpon>
     </Compile>
+    <Compile Include="Geral\Cidade\View\frmCadCidade.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Geral\Cidade\View\frmCadCidade.Designer.cs">
+      <DependentUpon>frmCadCidade.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Geral\Cidade\View\frmConsCidade.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Geral\Cidade\View\frmConsCidade.Designer.cs">
+      <DependentUpon>frmConsCidade.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Geral\Cidade\View\ucConsCidade.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Geral\Cidade\View\ucConsCidade.Designer.cs">
+      <DependentUpon>ucConsCidade.cs</DependentUpon>
+    </Compile>
     <Compile Include="Geral\Estado\View\frmCadEstado.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -94,6 +112,15 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="frmMenu.resx">
       <DependentUpon>frmMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Geral\Cidade\View\frmCadCidade.resx">
+      <DependentUpon>frmCadCidade.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Geral\Cidade\View\frmConsCidade.resx">
+      <DependentUpon>frmConsCidade.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Geral\Cidade\View\ucConsCidade.resx">
+      <DependentUpon>ucConsCidade.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Geral\Estado\View\frmCadEstado.resx">
       <DependentUpon>frmCadEstado.cs</DependentUpon>
