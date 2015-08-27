@@ -1,0 +1,11 @@
+C:\KuraSoft\SansERP\obj\x86\Debug\SansERP.csprojResolveAssemblyReference.cache
+C:\KuraSoft\SansERP\obj\x86\Debug\SansERP.frmMenu.resources
+C:\KuraSoft\SansERP\obj\x86\Debug\SansERP.Properties.Resources.resources
+C:\KuraSoft\SansERP\obj\x86\Debug\SansERP.csproj.GenerateResource.Cache
+C:\KuraSoft\SansERP\bin\Debug\SansERP.exe.config
+C:\KuraSoft\SansERP\bin\Debug\SansERP.exe
+C:\KuraSoft\SansERP\bin\Debug\SansERP.pdb
+C:\KuraSoft\SansERP\bin\Debug\KuraFrameWork.dll
+C:\KuraSoft\SansERP\bin\Debug\KuraFrameWork.pdb
+C:\KuraSoft\SansERP\obj\x86\Debug\SansERP.exe
+C:\KuraSoft\SansERP\obj\x86\Debug\SansERP.pdb
