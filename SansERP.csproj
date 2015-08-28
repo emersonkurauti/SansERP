@@ -89,6 +89,24 @@
     <Compile Include="Geral\Estado\View\ucConsEstado.Designer.cs">
       <DependentUpon>ucConsEstado.cs</DependentUpon>
     </Compile>
+    <Compile Include="Geral\MarcaProduto\View\frmCadMarcaProduto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Geral\MarcaProduto\View\frmCadMarcaProduto.Designer.cs">
+      <DependentUpon>frmCadMarcaProduto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Geral\MarcaProduto\View\frmConsMarcaProduto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Geral\MarcaProduto\View\frmConsMarcaProduto.Designer.cs">
+      <DependentUpon>frmConsMarcaProduto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Geral\MarcaProduto\View\ucConsMarcaProduto.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Geral\MarcaProduto\View\ucConsMarcaProduto.Designer.cs">
+      <DependentUpon>ucConsMarcaProduto.cs</DependentUpon>
+    </Compile>
     <Compile Include="Geral\Pais\View\frmCadPais.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -154,6 +172,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Geral\Estado\View\ucConsEstado.resx">
       <DependentUpon>ucConsEstado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Geral\MarcaProduto\View\frmCadMarcaProduto.resx">
+      <DependentUpon>frmCadMarcaProduto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Geral\MarcaProduto\View\frmConsMarcaProduto.resx">
+      <DependentUpon>frmConsMarcaProduto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Geral\MarcaProduto\View\ucConsMarcaProduto.resx">
+      <DependentUpon>ucConsMarcaProduto.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Geral\Pais\View\frmCadPais.resx">
       <DependentUpon>frmCadPais.cs</DependentUpon>
