@@ -89,11 +89,23 @@
     <Compile Include="Geral\Estado\View\ucConsEstado.Designer.cs">
       <DependentUpon>ucConsEstado.cs</DependentUpon>
     </Compile>
-    <Compile Include="Geral\Fabricantes\View\frmCadFabricantes.cs">
+    <Compile Include="Geral\Fabricante\View\frmCadFabricante.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Geral\Fabricantes\View\frmCadFabricantes.Designer.cs">
-      <DependentUpon>frmCadFabricantes.cs</DependentUpon>
+    <Compile Include="Geral\Fabricante\View\frmCadFabricante.Designer.cs">
+      <DependentUpon>frmCadFabricante.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Geral\Fabricante\View\frmConsFabricante.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Geral\Fabricante\View\frmConsFabricante.Designer.cs">
+      <DependentUpon>frmConsFabricante.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Geral\Fabricante\View\ucConsFabricante.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Geral\Fabricante\View\ucConsFabricante.Designer.cs">
+      <DependentUpon>ucConsFabricante.cs</DependentUpon>
     </Compile>
     <Compile Include="Geral\MarcaProduto\View\frmCadMarcaProduto.cs">
       <SubType>Form</SubType>
@@ -197,8 +209,14 @@
     <EmbeddedResource Include="Geral\Estado\View\ucConsEstado.resx">
       <DependentUpon>ucConsEstado.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Geral\Fabricantes\View\frmCadFabricantes.resx">
-      <DependentUpon>frmCadFabricantes.cs</DependentUpon>
+    <EmbeddedResource Include="Geral\Fabricante\View\frmCadFabricante.resx">
+      <DependentUpon>frmCadFabricante.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Geral\Fabricante\View\frmConsFabricante.resx">
+      <DependentUpon>frmConsFabricante.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Geral\Fabricante\View\ucConsFabricante.resx">
+      <DependentUpon>ucConsFabricante.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Geral\MarcaProduto\View\frmCadMarcaProduto.resx">
       <DependentUpon>frmCadMarcaProduto.cs</DependentUpon>

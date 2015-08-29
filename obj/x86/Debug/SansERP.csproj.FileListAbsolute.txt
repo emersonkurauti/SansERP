@@ -28,3 +28,6 @@ C:\KuraSoft\SansERP\obj\x86\Debug\SansERP.Geral.MarcaProduto.View.ucConsMarcaPro
 C:\KuraSoft\SansERP\obj\x86\Debug\SansERP.Geral.TipoProduto.View.frmConsTipoProduto.resources
 C:\KuraSoft\SansERP\obj\x86\Debug\SansERP.Geral.TipoProduto.View.ucConsTipoProduto.resources
 C:\KuraSoft\SansERP\obj\x86\Debug\SansERP.Geral.TipoProduto.View.frmCadTipoProduto.resources
+C:\KuraSoft\SansERP\obj\x86\Debug\SansERP.Geral.Fabricante.View.frmConsFabricante.resources
+C:\KuraSoft\SansERP\obj\x86\Debug\SansERP.Geral.Fabricante.View.ucConsFabricante.resources
+C:\KuraSoft\SansERP\obj\x86\Debug\SansERP.Geral.Fabricante.View.frmCadFabricante.resources
