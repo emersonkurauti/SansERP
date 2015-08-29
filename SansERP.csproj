@@ -71,6 +71,24 @@
     <Compile Include="Geral\Cidade\View\ucConsCidade.Designer.cs">
       <DependentUpon>ucConsCidade.cs</DependentUpon>
     </Compile>
+    <Compile Include="Geral\Empresa\View\frmCadEmpresa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Geral\Empresa\View\frmCadEmpresa.Designer.cs">
+      <DependentUpon>frmCadEmpresa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Geral\Empresa\View\frmConsEmpresa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Geral\Empresa\View\frmConsEmpresa.Designer.cs">
+      <DependentUpon>frmConsEmpresa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Geral\Empresa\View\ucConsEmpresa.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Geral\Empresa\View\ucConsEmpresa.Designer.cs">
+      <DependentUpon>ucConsEmpresa.cs</DependentUpon>
+    </Compile>
     <Compile Include="Geral\Estado\View\frmCadEstado.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -124,6 +142,24 @@
     </Compile>
     <Compile Include="Geral\MarcaProduto\View\ucConsMarcaProduto.Designer.cs">
       <DependentUpon>ucConsMarcaProduto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Geral\OperadoraTelefonica\View\ucConsOperadoraTelefonica.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Geral\OperadoraTelefonica\View\ucConsOperadoraTelefonica.Designer.cs">
+      <DependentUpon>ucConsOperadoraTelefonica.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Geral\OperadoraTelefonica\View\frmCadOperadoraTelefonica.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Geral\OperadoraTelefonica\View\frmCadOperadoraTelefonica.Designer.cs">
+      <DependentUpon>frmCadOperadoraTelefonica.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Geral\OperadoraTelefonica\View\frmConsOperadoraTelefonica.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Geral\OperadoraTelefonica\View\frmConsOperadoraTelefonica.Designer.cs">
+      <DependentUpon>frmConsOperadoraTelefonica.cs</DependentUpon>
     </Compile>
     <Compile Include="Geral\Pais\View\frmCadPais.cs">
       <SubType>Form</SubType>
@@ -200,6 +236,15 @@
     <EmbeddedResource Include="Geral\Cidade\View\ucConsCidade.resx">
       <DependentUpon>ucConsCidade.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Geral\Empresa\View\frmCadEmpresa.resx">
+      <DependentUpon>frmCadEmpresa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Geral\Empresa\View\frmConsEmpresa.resx">
+      <DependentUpon>frmConsEmpresa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Geral\Empresa\View\ucConsEmpresa.resx">
+      <DependentUpon>ucConsEmpresa.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Geral\Estado\View\frmCadEstado.resx">
       <DependentUpon>frmCadEstado.cs</DependentUpon>
     </EmbeddedResource>
@@ -226,6 +271,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Geral\MarcaProduto\View\ucConsMarcaProduto.resx">
       <DependentUpon>ucConsMarcaProduto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Geral\OperadoraTelefonica\View\ucConsOperadoraTelefonica.resx">
+      <DependentUpon>ucConsOperadoraTelefonica.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Geral\OperadoraTelefonica\View\frmCadOperadoraTelefonica.resx">
+      <DependentUpon>frmCadOperadoraTelefonica.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Geral\OperadoraTelefonica\View\frmConsOperadoraTelefonica.resx">
+      <DependentUpon>frmConsOperadoraTelefonica.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Geral\Pais\View\frmCadPais.resx">
       <DependentUpon>frmCadPais.cs</DependentUpon>
