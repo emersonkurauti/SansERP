@@ -23,3 +23,8 @@ C:\KuraSoft\SansERP\obj\x86\Debug\SansERP.Geral.TipoTelefone.View.frmConsTipoTel
 C:\KuraSoft\SansERP\obj\x86\Debug\SansERP.Geral.TipoTelefone.View.ucConsTipoTelefone.resources
 C:\KuraSoft\SansERP\obj\x86\Debug\SansERP.Geral.TipoEndereco.View.frmCadTipoEndereco.resources
 C:\KuraSoft\SansERP\obj\x86\Debug\SansERP.Geral.MarcaProduto.View.frmCadMarcaProduto.resources
+C:\KuraSoft\SansERP\obj\x86\Debug\SansERP.Geral.MarcaProduto.View.frmConsMarcaProduto.resources
+C:\KuraSoft\SansERP\obj\x86\Debug\SansERP.Geral.MarcaProduto.View.ucConsMarcaProduto.resources
+C:\KuraSoft\SansERP\obj\x86\Debug\SansERP.Geral.TipoProduto.View.frmConsTipoProduto.resources
+C:\KuraSoft\SansERP\obj\x86\Debug\SansERP.Geral.TipoProduto.View.ucConsTipoProduto.resources
+C:\KuraSoft\SansERP\obj\x86\Debug\SansERP.Geral.TipoProduto.View.frmCadTipoProduto.resources

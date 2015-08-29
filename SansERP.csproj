@@ -89,6 +89,12 @@
     <Compile Include="Geral\Estado\View\ucConsEstado.Designer.cs">
       <DependentUpon>ucConsEstado.cs</DependentUpon>
     </Compile>
+    <Compile Include="Geral\Fabricantes\View\frmCadFabricantes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Geral\Fabricantes\View\frmCadFabricantes.Designer.cs">
+      <DependentUpon>frmCadFabricantes.cs</DependentUpon>
+    </Compile>
     <Compile Include="Geral\MarcaProduto\View\frmCadMarcaProduto.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -124,6 +130,24 @@
     </Compile>
     <Compile Include="Geral\Pais\View\ucConsPais.Designer.cs">
       <DependentUpon>ucConsPais.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Geral\TipoProduto\View\frmCadTipoProduto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Geral\TipoProduto\View\frmCadTipoProduto.Designer.cs">
+      <DependentUpon>frmCadTipoProduto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Geral\TipoProduto\View\frmConsTipoProduto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Geral\TipoProduto\View\frmConsTipoProduto.Designer.cs">
+      <DependentUpon>frmConsTipoProduto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Geral\TipoProduto\View\ucConsTipoProduto.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Geral\TipoProduto\View\ucConsTipoProduto.Designer.cs">
+      <DependentUpon>ucConsTipoProduto.cs</DependentUpon>
     </Compile>
     <Compile Include="Geral\TipoEndereco\View\frmCadTipoEndereco.cs">
       <SubType>Form</SubType>
@@ -173,6 +197,9 @@
     <EmbeddedResource Include="Geral\Estado\View\ucConsEstado.resx">
       <DependentUpon>ucConsEstado.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Geral\Fabricantes\View\frmCadFabricantes.resx">
+      <DependentUpon>frmCadFabricantes.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Geral\MarcaProduto\View\frmCadMarcaProduto.resx">
       <DependentUpon>frmCadMarcaProduto.cs</DependentUpon>
     </EmbeddedResource>
@@ -190,6 +217,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Geral\Pais\View\ucConsPais.resx">
       <DependentUpon>ucConsPais.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Geral\TipoProduto\View\frmCadTipoProduto.resx">
+      <DependentUpon>frmCadTipoProduto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Geral\TipoProduto\View\frmConsTipoProduto.resx">
+      <DependentUpon>frmConsTipoProduto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Geral\TipoProduto\View\ucConsTipoProduto.resx">
+      <DependentUpon>ucConsTipoProduto.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Geral\TipoEndereco\View\frmCadTipoEndereco.resx">
       <DependentUpon>frmCadTipoEndereco.cs</DependentUpon>
