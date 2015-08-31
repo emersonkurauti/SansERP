@@ -37,3 +37,7 @@ C:\KuraSoft\SansERP\obj\x86\Debug\SansERP.Geral.OperadoraTelefonica.View.ucConsO
 C:\KuraSoft\SansERP\obj\x86\Debug\SansERP.Geral.Empresa.View.frmCadEmpresa.resources
 C:\KuraSoft\SansERP\obj\x86\Debug\SansERP.Geral.Empresa.View.frmConsEmpresa.resources
 C:\KuraSoft\SansERP\obj\x86\Debug\SansERP.Geral.Empresa.View.ucConsEmpresa.resources
+C:\KuraSoft\SansERP\obj\x86\Debug\SansERP.Geral.Fornecedor.View.frmCadFornecedor.resources
+C:\KuraSoft\SansERP\obj\x86\Debug\SansERP.Geral.Fornecedor.View.ucCadFilhoFornecedor.resources
+C:\KuraSoft\SansERP\obj\x86\Debug\SansERP.Geral.Fornecedor.View.frmConsFornecedor.resources
+C:\KuraSoft\SansERP\obj\x86\Debug\SansERP.Geral.Fornecedor.View.ucConsFornecedor.resources
