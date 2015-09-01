@@ -233,6 +233,30 @@
     <Compile Include="Geral\Pais\View\ucConsPais.Designer.cs">
       <DependentUpon>ucConsPais.cs</DependentUpon>
     </Compile>
+    <Compile Include="Geral\Produto\View\frmCadProduto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Geral\Produto\View\frmCadProduto.Designer.cs">
+      <DependentUpon>frmCadProduto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Geral\Produto\View\frmConsProduto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Geral\Produto\View\frmConsProduto.Designer.cs">
+      <DependentUpon>frmConsProduto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Geral\Produto\View\ucCadFilhoProduto.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Geral\Produto\View\ucCadFilhoProduto.Designer.cs">
+      <DependentUpon>ucCadFilhoProduto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Geral\Produto\View\ucConsProduto.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Geral\Produto\View\ucConsProduto.Designer.cs">
+      <DependentUpon>ucConsProduto.cs</DependentUpon>
+    </Compile>
     <Compile Include="Geral\TipoProduto\View\frmCadTipoProduto.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -370,6 +394,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Geral\Pais\View\ucConsPais.resx">
       <DependentUpon>ucConsPais.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Geral\Produto\View\frmCadProduto.resx">
+      <DependentUpon>frmCadProduto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Geral\Produto\View\frmConsProduto.resx">
+      <DependentUpon>frmConsProduto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Geral\Produto\View\ucCadFilhoProduto.resx">
+      <DependentUpon>ucCadFilhoProduto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Geral\Produto\View\ucConsProduto.resx">
+      <DependentUpon>ucConsProduto.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Geral\TipoProduto\View\frmCadTipoProduto.resx">
       <DependentUpon>frmCadTipoProduto.cs</DependentUpon>

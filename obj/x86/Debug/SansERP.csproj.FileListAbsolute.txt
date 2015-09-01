@@ -46,3 +46,5 @@ C:\KuraSoft\SansERP\obj\x86\Debug\SansERP.exe
 C:\KuraSoft\SansERP\obj\x86\Debug\SansERP.pdb
 C:\KuraSoft\SansERP\obj\x86\Debug\SansERP.Geral.Cliente.View.frmConsCliente.resources
 C:\KuraSoft\SansERP\obj\x86\Debug\SansERP.Geral.Cliente.View.ucConsCliente.resources
+C:\KuraSoft\SansERP\obj\x86\Debug\SansERP.Geral.Produto.View.frmCadProduto.resources
+C:\KuraSoft\SansERP\obj\x86\Debug\SansERP.Geral.Produto.View.ucCadFilhoProduto.resources
