@@ -71,6 +71,36 @@
     <Compile Include="Geral\Cidade\View\ucConsCidade.Designer.cs">
       <DependentUpon>ucConsCidade.cs</DependentUpon>
     </Compile>
+    <Compile Include="Geral\Cliente\View\frmCadCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Geral\Cliente\View\frmCadCliente.Designer.cs">
+      <DependentUpon>frmCadCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Geral\Cliente\View\frmConsCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Geral\Cliente\View\frmConsCliente.Designer.cs">
+      <DependentUpon>frmConsCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Geral\Cliente\View\ucCadClienteFisica.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Geral\Cliente\View\ucCadClienteFisica.Designer.cs">
+      <DependentUpon>ucCadClienteFisica.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Geral\Cliente\View\ucCadClienteJuridica.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Geral\Cliente\View\ucCadClienteJuridica.Designer.cs">
+      <DependentUpon>ucCadClienteJuridica.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Geral\Cliente\View\ucConsCliente.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Geral\Cliente\View\ucConsCliente.Designer.cs">
+      <DependentUpon>ucConsCliente.cs</DependentUpon>
+    </Compile>
     <Compile Include="Geral\Empresa\View\frmCadEmpresa.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -259,6 +289,21 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Geral\Cidade\View\ucConsCidade.resx">
       <DependentUpon>ucConsCidade.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Geral\Cliente\View\frmCadCliente.resx">
+      <DependentUpon>frmCadCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Geral\Cliente\View\frmConsCliente.resx">
+      <DependentUpon>frmConsCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Geral\Cliente\View\ucCadClienteFisica.resx">
+      <DependentUpon>ucCadClienteFisica.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Geral\Cliente\View\ucCadClienteJuridica.resx">
+      <DependentUpon>ucCadClienteJuridica.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Geral\Cliente\View\ucConsCliente.resx">
+      <DependentUpon>ucConsCliente.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Geral\Empresa\View\frmCadEmpresa.resx">
       <DependentUpon>frmCadEmpresa.cs</DependentUpon>
