@@ -48,3 +48,8 @@ C:\KuraSoft\SansERP\obj\x86\Debug\SansERP.Geral.Cliente.View.frmConsCliente.reso
 C:\KuraSoft\SansERP\obj\x86\Debug\SansERP.Geral.Cliente.View.ucConsCliente.resources
 C:\KuraSoft\SansERP\obj\x86\Debug\SansERP.Geral.Produto.View.frmCadProduto.resources
 C:\KuraSoft\SansERP\obj\x86\Debug\SansERP.Geral.Produto.View.ucCadFilhoProduto.resources
+C:\KuraSoft\SansERP\obj\x86\Debug\SansERP.Geral.Produto.View.frmConsProduto.resources
+C:\KuraSoft\SansERP\obj\x86\Debug\SansERP.Geral.Produto.View.ucConsProduto.resources
+C:\KuraSoft\SansERP\obj\x86\Debug\SansERP.Geral.TipoCalculo.View.frmCadTipoCalculo.resources
+C:\KuraSoft\SansERP\obj\x86\Debug\SansERP.Geral.TipoCalculo.View.frmConsTipoCalculo.resources
+C:\KuraSoft\SansERP\obj\x86\Debug\SansERP.Geral.TipoCalculo.View.ucConsTipoCalculo.resources

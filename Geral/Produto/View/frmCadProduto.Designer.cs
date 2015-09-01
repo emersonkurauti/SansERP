@@ -38,6 +38,7 @@
             this.qtProduto = new KuraFrameWork.Componentes_Visuais.ucTextBoxNumero();
             this.lblvlUnitario = new System.Windows.Forms.Label();
             this.vlUnitario = new KuraFrameWork.Componentes_Visuais.ucTextBoxMask();
+            this.cdTipoCalculo = new SansERP.Geral.TipoCalculo.View.ucConsTipoCalculo();
             this.ucCadFilhoProduto = new SansERP.Geral.Produto.View.ucCadFilhoProduto();
             this.pnFiltro.SuspendLayout();
             this.pnForm.SuspendLayout();
@@ -48,6 +49,7 @@
             // 
             // pnForm
             // 
+            this.pnForm.Controls.Add(this.cdTipoCalculo);
             this.pnForm.Controls.Add(this.ucCadFilhoProduto);
             this.pnForm.Controls.Add(this.vlUnitario);
             this.pnForm.Controls.Add(this.lblvlUnitario);
@@ -75,6 +77,7 @@
             this.pnForm.Controls.SetChildIndex(this.lblvlUnitario, 0);
             this.pnForm.Controls.SetChildIndex(this.vlUnitario, 0);
             this.pnForm.Controls.SetChildIndex(this.ucCadFilhoProduto, 0);
+            this.pnForm.Controls.SetChildIndex(this.cdTipoCalculo, 0);
             // 
             // btnLimparFiltro
             // 
@@ -132,20 +135,20 @@
             // nmProduto
             // 
             this.nmProduto.AceitaEspaco = true;
-            this.nmProduto.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
             this.nmProduto.CampoDesabilitado = false;
             this.nmProduto.CampoObrigatorio = true;
             this.nmProduto.Location = new System.Drawing.Point(6, 73);
             this.nmProduto.MensagemCampoObrigatorio = "Informe o nome do Produto.";
             this.nmProduto.Name = "nmProduto";
-            this.nmProduto.Size = new System.Drawing.Size(657, 20);
+            this.nmProduto.Size = new System.Drawing.Size(301, 20);
             this.nmProduto.TabIndex = 15;
             // 
             // lbldeProduto
             // 
+            this.lbldeProduto.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+                        | System.Windows.Forms.AnchorStyles.Right)));
             this.lbldeProduto.AutoSize = true;
-            this.lbldeProduto.Location = new System.Drawing.Point(3, 96);
+            this.lbldeProduto.Location = new System.Drawing.Point(313, 57);
             this.lbldeProduto.Name = "lbldeProduto";
             this.lbldeProduto.Size = new System.Drawing.Size(61, 13);
             this.lbldeProduto.TabIndex = 16;
@@ -158,14 +161,15 @@
                         | System.Windows.Forms.AnchorStyles.Right)));
             this.deProduto.CampoDesabilitado = false;
             this.deProduto.CampoObrigatorio = false;
-            this.deProduto.Location = new System.Drawing.Point(6, 112);
+            this.deProduto.Location = new System.Drawing.Point(316, 73);
             this.deProduto.MensagemCampoObrigatorio = null;
             this.deProduto.Name = "deProduto";
-            this.deProduto.Size = new System.Drawing.Size(445, 20);
+            this.deProduto.Size = new System.Drawing.Size(347, 20);
             this.deProduto.TabIndex = 17;
             // 
             // lblqtProduto
             // 
+            this.lblqtProduto.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.lblqtProduto.AutoSize = true;
             this.lblqtProduto.Location = new System.Drawing.Point(454, 96);
             this.lblqtProduto.Name = "lblqtProduto";
@@ -176,16 +180,18 @@
             // qtProduto
             // 
             this.qtProduto.AceitaEspaco = true;
+            this.qtProduto.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.qtProduto.CampoDesabilitado = false;
             this.qtProduto.CampoObrigatorio = false;
             this.qtProduto.Location = new System.Drawing.Point(457, 112);
             this.qtProduto.MensagemCampoObrigatorio = null;
             this.qtProduto.Name = "qtProduto";
-            this.qtProduto.Size = new System.Drawing.Size(100, 20);
+            this.qtProduto.Size = new System.Drawing.Size(101, 20);
             this.qtProduto.TabIndex = 19;
             // 
             // lblvlUnitario
             // 
+            this.lblvlUnitario.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.lblvlUnitario.AutoSize = true;
             this.lblvlUnitario.Location = new System.Drawing.Point(561, 96);
             this.lblvlUnitario.Name = "lblvlUnitario";
@@ -195,12 +201,33 @@
             // 
             // vlUnitario
             // 
+            this.vlUnitario.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.vlUnitario.CampoObrigatorio = false;
             this.vlUnitario.Location = new System.Drawing.Point(564, 112);
             this.vlUnitario.MensagemCampoObrigatorio = null;
             this.vlUnitario.Name = "vlUnitario";
             this.vlUnitario.Size = new System.Drawing.Size(99, 20);
             this.vlUnitario.TabIndex = 21;
+            // 
+            // cdTipoCalculo
+            // 
+            this.cdTipoCalculo.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.cdTipoCalculo.bCadastrar = true;
+            this.cdTipoCalculo.bMudouCodigo = false;
+            this.cdTipoCalculo.CampoObrigatorio = true;
+            this.cdTipoCalculo.cdRegistro = 0;
+            this.cdTipoCalculo.deRegistro = null;
+            this.cdTipoCalculo.Location = new System.Drawing.Point(6, 96);
+            this.cdTipoCalculo.MensagemCampoObrigatorio = "Selecione o tipo de cálculo do Produto.";
+            this.cdTipoCalculo.Name = "cdTipoCalculo";
+            this.cdTipoCalculo.objCon = null;
+            this.cdTipoCalculo.Rotulo = "*Tipo de Cálculo :";
+            this.cdTipoCalculo.Size = new System.Drawing.Size(442, 36);
+            this.cdTipoCalculo.TabIndex = 23;
+            this.cdTipoCalculo.TelaConsulta = null;
+            this.cdTipoCalculo.tfrmConsulta = null;
+            this.cdTipoCalculo.tobjCa = null;
             // 
             // ucCadFilhoProduto
             // 
@@ -243,5 +270,6 @@
         private System.Windows.Forms.Label lblvlUnitario;
         private KuraFrameWork.Componentes_Visuais.ucTextBoxMask vlUnitario;
         private ucCadFilhoProduto ucCadFilhoProduto;
+        private TipoCalculo.View.ucConsTipoCalculo cdTipoCalculo;
     }
 }

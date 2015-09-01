@@ -257,6 +257,24 @@
     <Compile Include="Geral\Produto\View\ucConsProduto.Designer.cs">
       <DependentUpon>ucConsProduto.cs</DependentUpon>
     </Compile>
+    <Compile Include="Geral\TipoCalculo\View\frmCadTipoCalculo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Geral\TipoCalculo\View\frmCadTipoCalculo.Designer.cs">
+      <DependentUpon>frmCadTipoCalculo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Geral\TipoCalculo\View\frmConsTipoCalculo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Geral\TipoCalculo\View\frmConsTipoCalculo.Designer.cs">
+      <DependentUpon>frmConsTipoCalculo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Geral\TipoCalculo\View\ucConsTipoCalculo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Geral\TipoCalculo\View\ucConsTipoCalculo.Designer.cs">
+      <DependentUpon>ucConsTipoCalculo.cs</DependentUpon>
+    </Compile>
     <Compile Include="Geral\TipoProduto\View\frmCadTipoProduto.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -406,6 +424,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Geral\Produto\View\ucConsProduto.resx">
       <DependentUpon>ucConsProduto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Geral\TipoCalculo\View\frmCadTipoCalculo.resx">
+      <DependentUpon>frmCadTipoCalculo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Geral\TipoCalculo\View\frmConsTipoCalculo.resx">
+      <DependentUpon>frmConsTipoCalculo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Geral\TipoCalculo\View\ucConsTipoCalculo.resx">
+      <DependentUpon>ucConsTipoCalculo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Geral\TipoProduto\View\frmCadTipoProduto.resx">
       <DependentUpon>frmCadTipoProduto.cs</DependentUpon>
